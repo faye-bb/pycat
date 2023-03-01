@@ -3,6 +3,7 @@ a simple Reverse Shell listener, support charset config
 苦于中文环境下windows的webshell因为字符集原因乱码，索性自己写了半个
 支持字符集设置
 中文windows环境下的朋友们可以把字符集设置成GBK
+
 eg：python pycat.py -p 4444 -h 0.0.0.0 -c GBK -t 0.5 
 usage：python pycat.py -p port [-h host]  [-c charset]  [-t wait_time]
        default:host 0.0.0.0    charset utf-8    wait_time 0.5
