@@ -8,7 +8,7 @@ eg：python pycat.py -p 4444 -h 0.0.0.0 -c GBK -t 0.5
 
 usage：python pycat.py -p port [-h host]  [-c charset]  [-t wait_time]
 
-       default:host 0.0.0.0    charset utf-8    wait_time 0.5
+default:host 0.0.0.0    charset utf-8    wait_time 0.5
        
 press --help to get help
 
